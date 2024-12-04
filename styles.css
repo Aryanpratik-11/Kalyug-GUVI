@@ -1,0 +1,43 @@
+/* General page styles */
+body {
+    background-color: black;
+    color: green;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: gold;
+    font-size: 3em;
+    margin-top: 50px;
+}
+
+/* Container for products */
+.product {
+    background-color: #333;
+    border: 1px solid #444;
+    padding: 20px;
+    margin: 15px;
+    width: 250px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    vertical-align: top;
+}
+
+.product h2 {
+    color: gold;
+    font-size: 1.5em;
+}
+
+.product p {
+    color: #ccc;
+}
+
+.price {
+    color: lightgreen;
+    font-weight: bold;
+    font-size: 1.2em;
+}
